@@ -1,3 +1,33 @@
+/**
+ * Question:
+ * You are planning an expedition to explore a newly discovered exoplanet, and you have limited space on your spacecraft for scientific instruments. You need to carefully select the instruments to maximize the scientific value of the mission while staying within the payload and volume constraints of your spacecraft.
+You have a set of scientific instruments, each with its weight, volume, and base scientific value. Additionally, the scientific value of each instrument might depend on the presence or absence of other instruments due to interactions or dependencies between them.
+Here are the details of the available scientific instruments:
+1. Instrument 1:
+  - Weight: 3 kg
+  - Volume: 2 m^3
+  - Base scientific value: 10
+2. Instrument 2:
+  - Weight: 4 kg
+  - Volume: 3 m^3
+  - Base scientific value: 15
+3. Instrument 3:
+  - Weight: 2 kg
+  - Volume: 1 m^3
+  - Base scientific value: 8
+4. Instrument 4:
+  - Weight: 5 kg
+  - Volume: 4 m^3
+  - Base scientific value: 20
+You have a payload capacity of 10 kg and a volume capacity of 7 m^3 for your spacecraft.
+Write a program to select the optimal combination of scientific instruments to maximize the overall scientific value of the mission while adhering to the payload and volume constraints. Ensure your algorithm accounts for the complex interactions between instruments and their varying weights, volumes, and scientific values.
+Provide the following details in your solution:
+- The selected combination of instruments.
+- The total weight and volume of the selected instruments.
+- The total scientific value achieved.
+ */
+
+
 // Define the instruments with their properties
 const instruments = [
     { Instrument: 1, weight: 3, volume: 2, value: 10 }, // Instrument 1
